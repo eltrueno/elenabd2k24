@@ -57,7 +57,7 @@
         height: 100vh;
     }
     :deep(.spotlight,.spotlight__overlay) {
-        cursor: url(/varitasnape.webp), alias !important;
+        cursor: url('/elenabd2k24/varitasnape.webp'), alias !important;
     }
     #spotlightcontainer{
         pointer-events:painted;
@@ -87,7 +87,7 @@
 
     @font-face {
     font-family: 'harrypotter';
-    src: url('/fonts/harryp.ttf') format('truetype');
+    src: url('/elenabd2k24/fonts/harryp.ttf') format('truetype');
     }  
 
     .harrypfont{
