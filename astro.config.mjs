@@ -5,11 +5,8 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/',
-  server: {
-    host: true,
-    port: 8088
-  },
+  site: 'https://eltrueno.github.io',
+  base: 'elenabd2k24',
   integrations: [tailwind(), vue({
     appEntrypoint: '/src/pages/vueapp.ts'
   })]
